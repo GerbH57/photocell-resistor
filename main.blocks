@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="@`Es=iQoNz~ZxH{X1Y[C" x="-223" y="-9"/><block type="device_forever" id="45y0J2Pz[19;D)B8K);[" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="9m@/e)ZcxW[;pD7moklB"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="ZSlVJ@WEI=hs)!l9Vv~?"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="%N%1VeT[b2~7VS#ECCBT"/></value><value name="B"><shadow type="math_number" id="Sp;H8hV[dcPCm;[$bfxj"><field name="NUM">200</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="]jn](.D(2-4dKmS[LS.4"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="h%]CBqGkov+BOhD,!0/b"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement></block></xml>
